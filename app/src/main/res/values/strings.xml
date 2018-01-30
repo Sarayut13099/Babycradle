@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BabeAlert</string>
+    <string name="bt_main_1">การควบคุมการทำงาน</string>
+    <string name="bt_main_2">พูดคุยกับลูกรัก</string>
+    <string name="bt_main_3">ประวัติน้องเปล</string>
+    <string name="main_logo">Baby Cradle</string>
+    <string name="control_on_off_system">เปิดปิดระบบ :</string>
+    <string name="heder_control_text">การไกวเปล</string>
+    <string name="des_controlmotor_onoff">สถานะเปิด/ปิด</string>
+    <string name="des_controlmotor_level">ระดับความแรง</string>
+    <string name="des_controlmotor_timer">ระยะเวลา</string>
+    <string name="des_controlmotor_header">การไกวเปล</string>
+    <string name="des_status_header">สถานนะเด็กร้อง</string>
+
+    <string name="baby_cry_header">เด็กกำลังร้อง</string>
+    <string name="baby_cry_header2">ไม่มีเสียงร้อง</string>
+    <string name="baby_move_header">เด็กมีการขยับตัว</string>
+    <string name="baby_move_header2">เด็กไม่มีการขยับตัว</string>
+    <string name="baby_cry_des">
+        คุณควรไปดูเค้านะ น้องเค้าอาจกำลังร้องไห้อยู่
+    </string>
+    <string name="baby_cry_des2">
+        ไม่มีอะไรน่าเป็นห่วง
+    </string>
+    <string name="baby_move_des">
+        คุณควรไปดูเค้านะ เราไม่ควรปล่อยให้เค้าขยับหรือพลิกตัวโดยไม่มีใครเฝ้าดู เพราะอาจเกิดอันตรายกับเด็กได้
+    </string>
+    <string name="baby_move_des2">
+        ไม่มีอะไรน่าเป็นห่วง บางทีเค้าอาจจะหลับอยู่
+    </string>
+
+    <string-array name="moter_level">
+        <item />
+        <item>ระดับ1</item>
+        <item>ระดับ2</item>
+    </string-array>
+
+    <string-array name="moter_timer">
+        <item />
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+    </string-array>
+</resources>
