@@ -11,24 +11,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="right"
+        android:orientation="horizontal"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:paddingTop="16dp"
-        android:orientation="horizontal">
+        android:paddingTop="16dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/control_on_off_system"
             android:textColor="@color/contoll_text_onOff_system"
-            android:textStyle="bold"
-            android:textSize="18dp"/>
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
         <android.support.v7.widget.SwitchCompat
-            style="@style/SwitchCompatTheme"
             android:id="@+id/sw_main_control"
-            android:layout_height="wrap_content"
+            style="@style/SwitchCompatTheme"
             android:layout_width="wrap_content"
-            android:layout_marginLeft="8dp">
-        </android.support.v7.widget.SwitchCompat>
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"></android.support.v7.widget.SwitchCompat>
     </LinearLayout>
 
 

@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 .init();
         bt_control = (CardView)findViewById(R.id.bt_control);
         bt_video = (CardView)findViewById(R.id.bt_video);
+        bt_history = (CardView)findViewById(R.id.music_bug);
 
         bt_control.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,VideoStreamming.class);
+                startActivity(intent);
+            }
+        });
+
+        bt_history.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,Music.class);
                 startActivity(intent);
             }
         });

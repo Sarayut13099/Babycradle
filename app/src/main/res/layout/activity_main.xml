@@ -119,6 +119,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
             <android.support.v7.widget.CardView
+                android:id="@+id/music_bug"
                 android:layout_height="90dp"
                 android:layout_width="match_parent"
                 android:layout_marginTop="4dp"
@@ -136,20 +137,21 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/history"/>
+                            android:src="@drawable/ic_music_note_black_24dp"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/color_button_main_3_body"
                         android:padding="20dp">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/bt_main_3"
-                            android:textSize="20dp"
                             android:textColor="@color/color_main_bt_text"
-                            android:textStyle="bold"/>
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </LinearLayout>
             </android.support.v7.widget.CardView>

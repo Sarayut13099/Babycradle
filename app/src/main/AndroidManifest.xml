@@ -21,14 +21,15 @@
         <activity android:name=".Control" />
         <activity android:name=".VideoStreamming" />
         <activity android:name=".splashscreen" />
-        <activity android:name=".history"></activity>
+        <activity android:name=".history" />
 
-        <service
-            android:name=".MyFirebaseInstanceIDService">
+        <service android:name=".MyFirebaseInstanceIDService">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+
+        <activity android:name=".Music"></activity>
     </application>
 
 </manifest>

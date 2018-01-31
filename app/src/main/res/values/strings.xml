@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">BabeAlert</string>
     <string name="bt_main_1">การควบคุมการทำงาน</string>
-    <string name="bt_main_2">พูดคุยกับลูกรัก</string>
-    <string name="bt_main_3">ประวัติน้องเปล</string>
+    <string name="bt_main_2">ดูเด็กผ่านกล้อง</string>
+    <string name="bt_main_3">เปิดเพลงกล่อม</string>
     <string name="main_logo">Baby Cradle</string>
     <string name="control_on_off_system">เปิดปิดระบบ :</string>
     <string name="heder_control_text">การไกวเปล</string>
@@ -11,6 +11,9 @@
     <string name="des_controlmotor_timer">ระยะเวลา</string>
     <string name="des_controlmotor_header">การไกวเปล</string>
     <string name="des_status_header">สถานนะเด็กร้อง</string>
+    <string name="des_controlmusic">การเปิดเพลง</string>
+    <string name="des_statusmusic">สถานะเพลง</string>
+
 
     <string name="baby_cry_header">เด็กกำลังร้อง</string>
     <string name="baby_cry_header2">ไม่มีเสียงร้อง</string>

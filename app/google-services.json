@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "321383667002-ru2u35m1dko2r6dr04vj05no7789as3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarayut.babealert",
+            "certificate_hash": "3272e7077da1b23b8bd0b7391f9eed183f39c1a1"
+          }
+        },
+        {
           "client_id": "321383667002-qppre5gfr72a3f8no1pvksei3mkghfc5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
