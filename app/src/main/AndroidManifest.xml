@@ -9,8 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <!--<meta-data android:name="com.onesignal.NotificationOpened.DEFAULT" android:value="DISABLE"/>-->
+        <!--<meta-data android:name="com.onesignal.BadgeCount" android:value="DISABLE"/>-->
+        <!--<service-->
+            <!--android:name=".NotificationExtenderExample"-->
+            <!--android:exported="false">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.onesignal.NotificationExtender"/>-->
+            <!--</intent-filter>-->
+        <!--</service>-->
         <activity
-            android:name=".MainActivity"
+            android:name=".Control"
             android:theme="@style/AppHomeScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Control" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".VideoStreamming" />
         <activity android:name=".splashscreen" />
         <activity android:name=".history" />

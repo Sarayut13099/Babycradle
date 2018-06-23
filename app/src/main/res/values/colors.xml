@@ -17,4 +17,5 @@
     <color name="contoll_text_onOff_system">#E91E63</color>
     <color name="color_control_motor">#0091EA</color>
     <color name="color_control_motor_text">#ffffff</color>
+    <color name="color_hearder_controll">#E91E63</color>
 </resources>

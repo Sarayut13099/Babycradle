@@ -1,5 +1,6 @@
 package com.example.sarayut.babealert;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,6 +19,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.onesignal.OneSignal;
 
 import java.io.Console;
 
@@ -27,6 +29,7 @@ public class Control extends AppCompatActivity {
     public SwitchCompat swMainControl, swMotorControl;
     public String defultTime = "";
     boolean swMainStatus = false;
+    public android.support.v7.widget.CardView bt_video, bt_song;
 
     public TextView tv_babycry_main,tv_babycry_des,tv_babymove,tv_babymove_des;
     public ImageView img_babycry, img_babymove;
@@ -41,6 +44,10 @@ public class Control extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_control);
+        OneSignal.startInit(this)
+                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                .unsubscribeWhenNotificationsAreDisabled(true)
+                .init();
 
         swMotorControl = findViewById(R.id.sw_motor_control);
         tv_babycry_main = findViewById(R.id.text_baby_cry_main);
@@ -49,6 +56,27 @@ public class Control extends AppCompatActivity {
         tv_babymove = findViewById(R.id.text_baby_move_main);
         tv_babymove_des = findViewById(R.id.text_baby_move_des);
         img_babymove = findViewById(R.id.img_baby_move);
+        bt_video = findViewById(R.id.headContoll);
+        bt_song = findViewById(R.id.headContoll2);
+
+
+        // header button
+
+        bt_video.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Control.this,VideoStreamming.class);
+                startActivity(intent);
+            }
+        });
+
+        bt_song.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Control.this,Music.class);
+                startActivity(intent);
+            }
+        });
 
 
         if (savedInstanceState != null){

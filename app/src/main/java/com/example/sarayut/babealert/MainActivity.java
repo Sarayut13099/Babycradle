@@ -19,10 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        OneSignal.startInit(this)
-                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
-                .unsubscribeWhenNotificationsAreDisabled(true)
-                .init();
+
         bt_control = (CardView)findViewById(R.id.bt_control);
         bt_video = (CardView)findViewById(R.id.bt_video);
         bt_history = (CardView)findViewById(R.id.music_bug);
